@@ -31,7 +31,7 @@ heatmap.2(dat, main="my_heatmap",  #输入数据必须为matrix；main设定titl
           trace="none", #不在heatmap上显示沿行或沿列的value分布曲线或直方图
           margins=c(9,12), #设定图像周围的空白大小；默认c(5,5)
           col=my_color, #设定颜色
-          dendrogram = "row",Colv="NA",  #只设定行上有树状图，取消列的树状图
+          dendrogram = "row",Colv="NA" #只设定行上有树状图，取消列的树状图
           #Colv = as.dendrogram(cluster)), #对行变量做聚类
           #RowSideColors = c(rep("gray",5),rep("green",3)), 
           #给行变量分组做labels；第一组为灰色，包含前5个；
