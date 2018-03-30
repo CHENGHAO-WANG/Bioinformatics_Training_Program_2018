@@ -18,7 +18,7 @@ my_color <- colorRampPalette(c("#c51b8a","#fa9fb5","#fde0dd"))(n=19)
 #设定生成的图像大小
 png("~/Desktop/training program homework/plotHeatmap/heatmap2.png",
     width=5*300,height=5*300,res=300,pointsize=5)
-#生成png图像；宽度和高度为1500像素，分辨率为300像素/平方英寸；字体大小为5
+#生成png图像；宽度和高度为1500像素，分辨率为300像素/英寸；字体大小为5
 
 #加入聚类命令
 #disance <- dist(dat,method="euclidean")
