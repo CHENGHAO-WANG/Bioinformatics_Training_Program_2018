@@ -14,3 +14,7 @@ The output file is sorted first by transcript IDs and then by chromosome in lexi
 Column 5, 7, 8, 9 in the BED12 file should be set to 0.
 Please do NOT use any external tools (e.g. sort, awk, etc.) in your program other than Python.
 An example output can be found in weekly_tasks/transcripts.bed.
+
+##### menu.py
+write a Python program to add a prefix to all directories
+Each prefix is a two-digit number starting from 00 and '-'. If the number is less than 10, a single '0' letter should be filled.
