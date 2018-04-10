@@ -9,5 +9,5 @@ try to write one bash script to check the md5 of files in folder and output the 
 ##### heatmap.R
 create one heatmap using function "heatmap.2" in package "gplots" (https://www.rdocumentation.org/packages/gplots/versions/3.0.1/topics/heatmap.2\ or package "pheatmap" (https://github.com/raivokolde/pheatmap
 
-##### heatmap_by_plotly.r
+##### heatmap_by_plotly.R
 create your own plots using other packages, like plotly(https://plot.ly/r/, ggvis(http://ggvis.rstudio.com/
