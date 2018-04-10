@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import re
 
+#设定路径
 #读取文件
 data = pd.read_csv('test.txt', sep="\t", header=None)
 
